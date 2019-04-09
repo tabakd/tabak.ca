@@ -40,6 +40,9 @@ template {
   display: none;
 }
 a {
+  color: #3983bf;
+  font-weight: bold;
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -377,6 +380,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  max-width: 480px;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
