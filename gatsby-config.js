@@ -4,10 +4,8 @@ module.exports = {
     description: `Daniel Tabak's home on the World Wide Web.`,
     author: `@gatsbyjs`,
   },
-  pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
 
   plugins: [
-    "gatsby-plugin-ipfs",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
