@@ -24,7 +24,8 @@ const Header = ({ siteTitle, description }) => (
     >
       <div
         style={{
-          width: `100px`,
+          maxWidth: `100px`,
+          width: "100%",
           opacity: 0.8,
         }}
       >
