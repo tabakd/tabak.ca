@@ -38,6 +38,22 @@ body {
   }
 }
 
+@keyframes ColorRotateReverse {
+  0% {
+    color: #6157f0;
+    border-color: #6157f0;
+  }
+  50% {
+    color: #d2761c;
+    border-color: #d2761c;
+  }
+
+  100% {
+    color: #6157f0;
+    border-color: #6157f0;
+  }
+}
+
 article,
 aside,
 details,

@@ -1,11 +1,12 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import { IoIosMail, IoLogoLinkedin } from "react-icons/io"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
+import ImageGrid from "../components/imageGrid"
 
-const Link = props => (
+const LinkButton = props => (
   <a
     {...props}
     style={{
@@ -23,7 +24,10 @@ const Link = props => (
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Daniel Tabak's home on the World Wide Web."
+      keywords={[`gatsby`, `application`, `react`]}
+    />
 
     <h4>Who am I?</h4>
     <p>
@@ -32,93 +36,51 @@ const IndexPage = () => (
     </p>
     <p> I love using technology to solve problems for myself and others.</p>
     <p>Here are some other things I like:</p>
-    <div
-      style={{
-        display: "grid",
-        gridGap: "15px",
-        width: "fit-content",
-        gridTemplateColumns: "auto auto auto",
-      }}
-    >
-      <img
-        style={{
-          width: 150,
-          height: 150,
-          marginBottom: 0,
-          objectFit: "cover",
-          borderRadius: 3,
-        }}
-        src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
-      />
-      <img
-        style={{
-          width: 150,
-          height: 150,
-          marginBottom: 0,
-          objectFit: "cover",
-          borderRadius: 3,
-        }}
-        src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=80"
-      />
-      <img
-        style={{
-          width: 150,
-          height: 150,
-          marginBottom: 0,
-          objectFit: "cover",
-          borderRadius: 3,
-        }}
-        src="https://images.unsplash.com/photo-1535979014625-490762ceb2ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
-      />
 
-      <img
-        style={{
-          width: 150,
-          height: 150,
-          marginBottom: 0,
-          objectFit: "cover",
-          borderRadius: 3,
-        }}
-        src="https://images.unsplash.com/photo-1470192736366-c0d57f198696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80"
-      />
+    <ImageGrid
+      images={[
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
+        "https://images.unsplash.com/photo-1528712306091-ed0763094c98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=80",
+        "https://images.unsplash.com/photo-1535979014625-490762ceb2ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
+        "https://images.unsplash.com/photo-1470192736366-c0d57f198696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80",
+        "https://i.ibb.co/2PwF1fg/image.png",
+        "https://images.unsplash.com/photo-1520949201978-45105812d952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
+      ]}
+    />
+    <hr />
+    <p>Most of the time I'm making things using these tools:</p>
 
-      <img
+    <ImageGrid
+      images={[
+        "https://www.i-programmer.info/images/stories/prof/iprogrammer/JavascriptName/JSlogo.jpg",
+        "http://blog.klocwork.com/wp-content/uploads/fly-images/10699/python-logo-348x350-c.png",
+        "https://benbrewerbowman.com/static/media/react-skill.516f904f.svg",
+      ]}
+    />
+    <p>
+      <Link
+        to="blog"
         style={{
-          width: 150,
-          height: 150,
-          marginBottom: 0,
-          objectFit: "cover",
-          borderRadius: 3,
+          animation: "ColorRotate 16s ease infinite",
         }}
-        src="https://i.ibb.co/2PwF1fg/image.png"
-      />
-
-      <img
-        style={{
-          width: 150,
-          height: 150,
-          marginBottom: 0,
-          objectFit: "cover",
-          borderRadius: 3,
-        }}
-        src="https://images.unsplash.com/photo-1520949201978-45105812d952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
-      />
-    </div>
-
+      >
+        Read more
+      </Link>
+    </p>
     <hr />
     <h4>I build state of the art web software.</h4>
     <p>
-      If your web app suffers from scaling, reliability, or developer
-      productivity issues, please reach out for a <strong>free</strong>{" "}
-      evaluation.
+      If your product suffers from scaling, reliability, or developer
+      productivity issues, please reach out for a{" "}
+      <strong>free evaluation.</strong>{" "}
     </p>
     <div style={{ display: "flex" }}>
-      <Link href="mailto:daniel@tabak.ca?subject=Inquiry from tabak.ca">
+      <LinkButton href="mailto:daniel@tabak.ca?subject=Inquiry from tabak.ca">
         <IoIosMail style={{ marginRight: "5px" }} /> Email
-      </Link>
-      <Link href="https://www.linkedin.com/in/tabakd/">
+      </LinkButton>
+      <LinkButton href="https://www.linkedin.com/in/tabakd/">
         <IoLogoLinkedin style={{ marginRight: "5px" }} /> LinkedIn
-      </Link>
+      </LinkButton>
     </div>
   </Layout>
 )

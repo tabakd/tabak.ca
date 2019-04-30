@@ -1,0 +1,13 @@
+.ImageGrid {
+  display: grid;
+  grid-gap: 15px;
+  width: fit-content;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-bottom: 1.45rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .ImageGrid {
+    grid-template-columns: auto auto auto;
+  }
+}

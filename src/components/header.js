@@ -43,7 +43,30 @@ const Header = ({ siteTitle, description }) => (
             {siteTitle}
           </Link>
         </h1>
-        <p style={{ margin: 0, marginTop: "0.60rem" }}>{description}</p>
+        <p style={{ marginBottom: "0.60rem", marginTop: "0.60rem" }}>
+          {description}
+        </p>
+        <div
+          style={{
+            display: "grid",
+            width: "fit-content",
+            gridGap: 10,
+            gridTemplateColumns: "auto auto auto",
+          }}
+        >
+          <Link to="/" style={{ border: "1px solid", padding: "5px 10px" }}>
+            Home
+          </Link>
+          <Link to="/blog" style={{ border: "1px solid", padding: "5px 10px" }}>
+            Blog
+          </Link>
+          <a
+            href="mailto:daniel@tabak.ca?subject=Inquiry from tabak.ca"
+            style={{ border: "1px solid", padding: "5px 10px" }}
+          >
+            Contact
+          </a>
+        </div>
       </div>
     </div>
   </header>
