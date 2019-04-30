@@ -25,6 +25,7 @@ const Header = ({ siteTitle, description }) => (
       <div
         style={{
           width: `100px`,
+          opacity: 0.8,
         }}
       >
         <Image />

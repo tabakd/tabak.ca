@@ -14,8 +14,9 @@ const Link = props => (
       display: "inline-flex",
       alignItems: "center",
       padding: "10px 15px",
+      paddingLeft: 0,
       borderRadius: 3,
-      border: "2px solid hsla(0, 0%, 0%, 0.8)",
+      // border: "2px solid hsla(0, 0%, 0%, 0.8)",
     }}
   />
 )
@@ -23,27 +24,13 @@ const Link = props => (
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h4>I build state of the art web software.</h4>
-    <p>
-      If your web app suffers from scaling, reliability, or developer
-      productivity issues, please reach out for a <strong>free</strong>{" "}
-      evaluation.
-    </p>
-    <div style={{ display: "flex" }}>
-      <Link href="mailto:daniel@tabak.ca?subject=Inquiry from tabak.ca">
-        <IoIosMail style={{ marginRight: "5px" }} /> Email
-      </Link>
-      <Link href="https://www.linkedin.com/in/tabakd/">
-        <IoLogoLinkedin style={{ marginRight: "5px" }} /> LinkedIn
-      </Link>
-    </div>
-    <hr />
+
     <h4>Who am I?</h4>
     <p>
       I am a <i>[software developer, entrepreneur, digital nomad]</i> from
       Toronto, Canada.
     </p>
-    <p> I love to solve problems for myself and others.</p>
+    <p> I love using technology to solve problems for myself and others.</p>
     <p>Here are some other things I like:</p>
     <div
       style={{
@@ -105,6 +92,33 @@ const IndexPage = () => (
         }}
         src="https://i.ibb.co/2PwF1fg/image.png"
       />
+
+      <img
+        style={{
+          width: 150,
+          height: 150,
+          marginBottom: 0,
+          objectFit: "cover",
+          borderRadius: 3,
+        }}
+        src="https://images.unsplash.com/photo-1520949201978-45105812d952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
+      />
+    </div>
+
+    <hr />
+    <h4>I build state of the art web software.</h4>
+    <p>
+      If your web app suffers from scaling, reliability, or developer
+      productivity issues, please reach out for a <strong>free</strong>{" "}
+      evaluation.
+    </p>
+    <div style={{ display: "flex" }}>
+      <Link href="mailto:daniel@tabak.ca?subject=Inquiry from tabak.ca">
+        <IoIosMail style={{ marginRight: "5px" }} /> Email
+      </Link>
+      <Link href="https://www.linkedin.com/in/tabakd/">
+        <IoLogoLinkedin style={{ marginRight: "5px" }} /> LinkedIn
+      </Link>
     </div>
   </Layout>
 )
