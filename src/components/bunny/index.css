@@ -1,0 +1,289 @@
+.bunny {
+  position: fixed;
+
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.bunny_01 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -145px -109px;
+}
+.bunny_02 {
+  top: 0px;
+  left: 0px;
+  width: 21px;
+  height: 23px;
+  background: url("sprites.png") no-repeat -83px -55px;
+}
+.bunny_03 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 26px;
+  background: url("sprites.png") no-repeat -108px -23px;
+}
+.bunny_04 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  background: url("sprites.png") no-repeat -142px -31px;
+}
+.bunny_05 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 31px;
+  background: url("sprites.png") no-repeat -127px -0px;
+}
+.bunny_06 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -123px -77px;
+}
+.bunny_07 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 26px;
+  background: url("sprites.png") no-repeat -108px -23px;
+}
+.bunny_08 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  background: url("sprites.png") no-repeat -105px -0px;
+}
+.bunny_09 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  background: url("sprites.png") no-repeat -145px -137px;
+}
+.bunny_10 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  background: url("sprites.png") no-repeat -86px -0px;
+}
+.bunny_11 {
+  top: 0px;
+  left: 0px;
+  width: 21px;
+  height: 30px;
+  background: url("sprites.png") no-repeat -83px -78px;
+}
+.bunny_12 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -123px -49px;
+}
+.bunny_13 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -142px -58px;
+}
+.bunny_14 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 31px;
+  background: url("sprites.png") no-repeat -104px -55px;
+}
+.bunny_15 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 35px;
+  background: url("sprites.png") no-repeat -107px -113px;
+}
+.bunny_16 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 27px;
+  background: url("sprites.png") no-repeat -104px -86px;
+}
+.bunny_17 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -142px -58px;
+}
+.bunny_18 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 26px;
+  background: url("sprites.png") no-repeat -126px -126px;
+}
+.bunny_19 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 24px;
+  background: url("sprites.png") no-repeat -126px -102px;
+}
+.bunny_20 {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 23px;
+  background: url("sprites.png") no-repeat -145px -86px;
+}
+.bunny_21 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  background: url("sprites.png") no-repeat -33px -22px;
+}
+.bunny_22 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -0px -81px;
+}
+.bunny_23 {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 27px;
+  background: url("sprites.png") no-repeat -82px -127px;
+}
+.bunny_24 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -57px -99px;
+}
+.bunny_25 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -0px -0px;
+}
+.bunny_26 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -0px -106px;
+}
+.bunny_27 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -56px -132px;
+}
+.bunny_28 {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 22px;
+  background: url("sprites.png") no-repeat -33px -0px;
+}
+.bunny_29 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 19px;
+  background: url("sprites.png") no-repeat -29px -56px;
+}
+.bunny_30 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 19px;
+  background: url("sprites.png") no-repeat -29px -113px;
+}
+.bunny_31 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  background: url("sprites.png") no-repeat -57px -73px;
+}
+.bunny_32 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -0px -131px;
+}
+.bunny_33 {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 27px;
+  background: url("sprites.png") no-repeat -83px -28px;
+}
+.bunny_34 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -60px -0px;
+}
+.bunny_35 {
+  top: 0px;
+  left: 0px;
+  width: 33px;
+  height: 28px;
+  background: url("sprites.png") no-repeat -0px -28px;
+}
+.bunny_36 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -0px -56px;
+}
+.bunny_37 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 25px;
+  background: url("sprites.png") no-repeat -57px -48px;
+}
+.bunny_38 {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 22px;
+  background: url("sprites.png") no-repeat -29px -132px;
+}
+.bunny_39 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 19px;
+  background: url("sprites.png") no-repeat -29px -75px;
+}
+.bunny_40 {
+  top: 0px;
+  left: 0px;
+  width: 28px;
+  height: 19px;
+  background: url("sprites.png") no-repeat -29px -94px;
+}
